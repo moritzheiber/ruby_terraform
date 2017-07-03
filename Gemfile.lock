@@ -3,6 +3,7 @@ PATH
   specs:
     ruby-terraform (0.8.0)
       lino (~> 1.1)
+      systemu (~> 2.6.5)
 
 GEM
   remote: https://rubygems.org/
@@ -30,6 +31,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
+    systemu (2.6.5)
 
 PLATFORMS
   ruby
@@ -42,4 +44,4 @@ DEPENDENCIES
   ruby-terraform!
 
 BUNDLED WITH
-   1.14.5
+   1.15.1
